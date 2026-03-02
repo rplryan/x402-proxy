@@ -1,5 +1,5 @@
 {
-  "name": "x402-proxy",
+  "name": "@rplryan/x402-proxy",
   "version": "1.0.0",
   "description": "Dead-simple reverse proxy that adds x402 payment requirements to any API",
   "type": "module",
@@ -13,6 +13,13 @@
   "files": ["src", "README.md"],
   "keywords": ["x402", "proxy", "payments", "micropayments", "api", "web3"],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rplryan/x402-proxy.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "engines": { "node": ">=18" },
   "dependencies": {
     "@x402/core": "latest",
